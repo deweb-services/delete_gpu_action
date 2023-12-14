@@ -1,6 +1,6 @@
 # action.yml
-name: 'Create GPU'
-description: 'Deploy GPU and provide connection details'
+name: 'Delete GPU'
+description: 'Delete GPU by uuid'
 inputs:
   access-key:
     description: 'access-key'
