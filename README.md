@@ -25,7 +25,7 @@ IP address of your deployment.
     steps:
       - name: Delete gpu action step
         id: delete-gpu
-        uses: deweb-services/delete_gpu_action@v0.4
+        uses: deweb-services/delete_gpu_action@v0.5
         with:
           access-key: 'a12352244527cmzpxg74tq'
           secret-key: 'jffffkpdfffffajkfqoiyruffffkgospjrm74fkmdik'
