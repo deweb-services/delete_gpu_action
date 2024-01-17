@@ -4,11 +4,11 @@
 
 ## `access-key`
 
-**Required** Your access key for dws platform.
+**Required** Your access key for nodeshift platform.
 
 ## `secret-key`
 
-**Required** Your secret key for dws platform.
+**Required** Your secret key for nodeshift platform.
 
 ## `uuid`
 
@@ -32,4 +32,4 @@ IP address of your deployment.
           uuid: 'd40aa34f-49ce-4481-8d05-e78f8f9f9af7'
 
       - name: Get the output
-        run: echo "The uuid is ${{ steps.delete-gpu.outputs.uuid }}"
+        run: echo "The deletion was successful ${{ steps.delete-gpu.outputs.success }}"
